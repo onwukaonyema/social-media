@@ -177,7 +177,7 @@ function comment() {
   }
   else{
   let comm = document.querySelector(".comment").value;
-  let body = document.querySelector(".live-out");
+  let body = document.querySelector(".live-2");
   let time = document.createElement("p");
   let now = "now";
   time.innerHTML = now;
@@ -208,6 +208,8 @@ function comment() {
   commCont.appendChild(chat);
   commCont.appendChild(timeCont);
   body.appendChild(commCont);
+  body.scrollTop =  body.scrollHeight;
+
   }
 }
 function bing() {

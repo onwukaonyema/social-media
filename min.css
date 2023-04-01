@@ -944,6 +944,11 @@ body {
 }
 .live-out {
   padding: 2%;
+  
+}
+.live-2{
+  overflow-y: scroll;
+ height: 200px;
 }
 .fd {
   position: relative;
@@ -1240,7 +1245,7 @@ body {
     height: fit-content;
   }
   .frame-3 {
-    top: 220vh !important;
+    top: 215vh !important;
     height: fit-content;
   }
   .frame-2 {
@@ -1258,10 +1263,10 @@ body {
     margin: 0;
   }
   .wrap-intro {
-    height:fit-content;
+    height:128vh !important;
   }
   .frame-3 {
-    top: 175vh !important;
+    top: 170vh !important;
     height: 140vh;
   }
   .head-account {
@@ -1286,8 +1291,8 @@ body {
     left: 10%;
   }
   .frame-3 {
-    top: 170vh !important;
-    height: 135vh;
+    top: 60rem !important;
+    height: 40rem !important;
   }
   .frame-2 {
     height: 230vh;
@@ -1307,8 +1312,14 @@ body {
     height: 58%;
   }
 }
+@media(max-width:420px){
+  .frame-3{
+    top: 55rem !important;
 
-@media (max-width: 392px) {
+  }
+}
+
+@media (max-width: 399px) {
   .cancel {
     right: -7vh;
   }
@@ -1337,7 +1348,7 @@ body {
     top: 81.5%;
   }
   .frame-3 {
-    top: 10vh !important;
+    top: 0vh !important;
     height: fit-content;
     margin-bottom: 25vh;
   }
